@@ -1,31 +1,31 @@
 const reviews = [
   {
-    author: "Roger Ebert",
-    publication: "Chicago Sun-Times",
-    rating: 4,
+    author: "Name1",
+    publication: "Facebook",
+    rating: 5,
     quote:
-      "Inception is a thriller that's also an idea. It takes the format of a chase movie and fills it with love, loss, revenge, and the guilt we carry for those we have damaged.",
+      "Good movie.",
   },
   {
-    author: "Peter Travers",
-    publication: "Rolling Stone",
-    rating: 4,
+    author: "Name2",
+    publication: "Amazon reviews",
+    rating: 3,
     quote:
-      "Inception dazzles with its ambition and delivers on it. Nolan constructs his world with the precision of an architect.",
+      "Not bad.",
   },
   {
-    author: "Manohla Dargis",
-    publication: "The New York Times",
-    rating: 4,
+    author: "Name3",
+    publication: "Instagram",
+    rating: 1,
     quote:
-      "A summer film that puts the dumb-and-dumber blockbusters to shame. Nolan is comfortable in the realm of the supremely complicated.",
+      "Not good.",
   },
 ];
 
 function Stars({ count }: { count: number }) {
   return (
     <div className="flex gap-1">
-      {Array.from({ length: 4 }).map((_, i) => (
+      {Array.from({ length: 5 }).map((_, i) => (
         <span
           key={i}
           className={i < count ? "text-amber-400" : "text-gray-600"}
@@ -58,8 +58,8 @@ export default function Reviews() {
         {/* Score summary */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-14">
           {[
-            { score: "87%", label: "Rotten Tomatoes", emoji: "🍅" },
-            { score: "74", label: "Metacritic", emoji: "🎯" },
+            { score: "100%", label: "Rotten Tomatoes", emoji: "🍅" },
+            { score: "45", label: "Metacritic", emoji: "🎯" },
             { score: "8.8", label: "IMDb Rating", emoji: "⭐" },
           ].map(({ score, label, emoji }) => (
             <div

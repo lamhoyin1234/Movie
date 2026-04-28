@@ -1,4 +1,5 @@
 const details = [
+  {/*
   { label: "Director", value: "Christopher Nolan" },
   { label: "Screenplay", value: "Christopher Nolan" },
   { label: "Release Date", value: "July 16, 2010" },
@@ -7,6 +8,13 @@ const details = [
   { label: "Rating", value: "PG-13" },
   { label: "Language", value: "English" },
   { label: "Box Office", value: "$836.8 million" },
+   */}
+  { label: "Director", value: "Name" },
+  { label: "Animator", value: "Name" },
+  { label: "Release Date", value: "Date" },
+  { label: "Genre", value: "Genre" },
+  { label: "Runtime", value: "Runtime" },
+  { label: "Language", value: "Language" },
 ];
 
 export default function Overview() {
@@ -26,35 +34,30 @@ export default function Overview() {
           {/* Synopsis */}
           <div>
             <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
-              A Heist Inside the Human Mind
+              Movie synopsis goes here, a compelling summary that hooks the audience and gives them a taste of the story without revealing too much.
             </h3>
             <div className="space-y-4 text-gray-400 text-base sm:text-lg leading-relaxed">
               <p>
-                Dom Cobb is a skilled thief — the absolute best in the dangerous
-                art of extraction: stealing valuable secrets from deep within
-                the subconscious during the dream state, when the mind is at its
-                most vulnerable.
+                Movie description goes here, providing insight into the protagonist's skills, challenges, and motivations.
               </p>
               <p>
-                Cobb&rsquo;s rare ability has made him a coveted player in this treacherous
-                new world of corporate espionage, but it has also made him an
-                international fugitive and cost him everything he has ever loved.
+                Movie description.
               </p>
               <p>
-                Now Cobb is being offered a chance at redemption. One last job
-                could give him his life back but only if he can accomplish the
-                impossible — <em className="text-white">inception</em>, planting
-                an idea in someone&rsquo;s mind rather than stealing one.
+                Movie description.
               </p>
             </div>
 
             {/* Awards */}
             <div className="mt-8 flex flex-wrap gap-3">
               {[
+                {/*
                 "4× Academy Award Winner",
                 "Best Cinematography",
                 "Best Visual Effects",
                 "Best Sound Mixing",
+                */}
+                "Some tag or award",
               ].map((award) => (
                 <span
                   key={award}

@@ -21,17 +21,19 @@ export default function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-8 max-w-4xl mx-auto">
         {/* Badge */}
         <span className="inline-block mb-6 px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
-          2010 · Sci-Fi · Thriller
+          {/*2010 · Sci-Fi · Thriller*/}
+          2026 Amazon Movie
         </span>
 
         {/* Title */}
         <h1 className="text-6xl sm:text-8xl md:text-9xl font-black uppercase tracking-tight leading-none mb-6 bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent">
-          INCEPTION
+          Movie Name
         </h1>
 
         {/* Tagline */}
         <p className="text-lg sm:text-2xl text-gray-300 font-light italic mb-10 leading-relaxed">
-          &ldquo;Your mind is the scene of the crime.&rdquo;
+          {/*&ldquo;Your mind is the scene of the crime.&rdquo;*/}
+          Movie tagline goes here, something catchy and intriguing to draw viewers in.
         </p>
 
         {/* Meta info */}
@@ -40,7 +42,7 @@ export default function Hero() {
           <span>•</span>
           <span>🕐 2h 28min</span>
           <span>•</span>
-          <span>🎬 Christopher Nolan</span>
+          <span>🎬 Creator Name</span>
         </div>
 
         {/* CTA Buttons */}

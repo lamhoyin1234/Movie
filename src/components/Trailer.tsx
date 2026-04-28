@@ -20,8 +20,8 @@ export default function Trailer() {
           style={{ paddingTop: "56.25%" }}
         >
           <iframe
-            src="https://www.youtube.com/embed/YoHD9XEInc0"
-            title="Inception Official Trailer"
+            src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            title="Movie Official Trailer"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             className="absolute inset-0 w-full h-full"
@@ -29,7 +29,7 @@ export default function Trailer() {
         </div>
 
         <p className="mt-6 text-center text-gray-500 text-sm">
-          &copy; 2010 Warner Bros. Pictures — All rights reserved.
+          {/*&copy; 2010 Warner Bros. Pictures — All rights reserved.*/}
         </p>
       </div>
     </section>
