@@ -1,5 +1,5 @@
 const details = [
-  {/*
+  /*
   { label: "Director", value: "Christopher Nolan" },
   { label: "Screenplay", value: "Christopher Nolan" },
   { label: "Release Date", value: "July 16, 2010" },
@@ -8,7 +8,7 @@ const details = [
   { label: "Rating", value: "PG-13" },
   { label: "Language", value: "English" },
   { label: "Box Office", value: "$836.8 million" },
-   */}
+   */
   { label: "Director", value: "Name" },
   { label: "Animator", value: "Name" },
   { label: "Release Date", value: "Date" },
