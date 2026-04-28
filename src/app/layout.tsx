@@ -5,6 +5,15 @@ export const metadata: Metadata = {
   title: "Movie Name – Official Movie Page",
   description:
     "Explore Movie Name, the best animated film directed by Creator Name. Discover the cast, storyline, and more.",
+  openGraph: {
+    title: "Movie Name – Official Movie Page",
+    description:
+      "Explore Movie Name, the best animated film directed by Creator Name. Discover the cast, storyline, and more.",
+    type: "website",
+    locale: "en_US",
+    url: "https://lamhoyin1234.github.io/Movie/",
+    // images: [{ url: "https://lamhoyin1234.github.io/Movie/og-image.jpg", width: 1200, height: 630, alt: "Movie Name" }],
+  },
 };
 
 export default function RootLayout({
