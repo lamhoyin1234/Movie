@@ -20,7 +20,7 @@ export default function Trailer() {
           style={{ paddingTop: "56.25%" }}
         >
           <iframe
-            src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=_yPUGZWUeK0Y-yV-"
             title="Movie Official Trailer"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
