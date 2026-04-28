@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Movie Name – Official Movie Page",
   description:
-    "Explore [Movie Name], the best animated film directed by [Creator Name]. Discover the cast, storyline, and more.",
+    "Explore Movie Name, the best animated film directed by Creator Name. Discover the cast, storyline, and more.",
 };
 
 export default function RootLayout({

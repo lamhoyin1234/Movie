@@ -71,7 +71,7 @@ export default function Cast() {
         </div>
 
         <h3 className="text-3xl sm:text-4xl font-bold text-white mb-10 text-center">
-          The Dream Team
+          Meet the team
         </h3>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
