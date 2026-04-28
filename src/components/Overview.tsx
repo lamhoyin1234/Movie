@@ -51,12 +51,12 @@ export default function Overview() {
             {/* Awards */}
             <div className="mt-8 flex flex-wrap gap-3">
               {[
-                {/*
+                /*
                 "4× Academy Award Winner",
                 "Best Cinematography",
                 "Best Visual Effects",
                 "Best Sound Mixing",
-                */}
+                */
                 "Some tag or award",
               ].map((award) => (
                 <span
