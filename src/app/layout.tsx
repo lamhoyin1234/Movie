@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Inception – Official Movie Page",
+  title: "Movie Name – Official Movie Page",
   description:
-    "Explore Inception, the mind-bending sci-fi thriller directed by Christopher Nolan. Discover the cast, storyline, and more.",
+    "Explore [Movie Name], the best animated film directed by [Creator Name]. Discover the cast, storyline, and more.",
 };
 
 export default function RootLayout({
