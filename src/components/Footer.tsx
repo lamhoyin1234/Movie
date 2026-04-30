@@ -6,11 +6,9 @@ export default function Footer() {
           Movie Name
         </p>
         <p className="text-gray-600 text-xs text-center sm:text-right">
-          &copy; 2026 Amazon. All rights reserved.
-          {/*
+          {/* &copy; 2026 Amazon. All rights reserved. */}
           <br />
           This fan page is for educational purposes only.
-          */}
         </p>
       </div>
     </footer>
