@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const castMembers: {
   name: string;
   role: string;
@@ -90,12 +92,12 @@ export default function Cast() {
             >
               {/* Avatar */}
               {member.photo ? (
-                <div className="w-20 h-20 shrink-0 rounded-full overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                <div className="relative w-20 h-20 shrink-0 rounded-full overflow-hidden">
+                  <Image
                     src={member.photo}
                     alt={member.name}
-                    className="w-full h-full object-cover object-top"
+                    fill
+                    className="object-cover object-top"
                   />
                 </div>
               ) : (
