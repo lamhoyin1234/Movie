@@ -18,7 +18,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-8 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-8 max-w-6xl mx-auto">
         {/* Badge */}
         <span className="inline-block mb-6 px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
           {/*2010 · Sci-Fi · Thriller*/}
@@ -26,7 +26,7 @@ export default function Hero() {
         </span>
 
         {/* Title */}
-        <h1 className="text-[clamp(1.5rem,5.5vw,6rem)] font-black uppercase tracking-tight leading-none mb-6 bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent whitespace-nowrap">
+        <h1 className="text-[clamp(1.5rem,5vw,5rem)] font-black uppercase tracking-tight leading-none mb-6 bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent whitespace-nowrap">
           Pirates of the South
         </h1>
 
