@@ -75,15 +75,15 @@ export default function Cast() {
           Meet the team
         </h3>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
           {castMembers.map((member, index) => (
             <div
               key={index}
-              className="group bg-white/5 border border-white/10 rounded-2xl p-4 sm:p-6 hover:bg-white/10 hover:border-amber-400/30 transition-all duration-300"
+              className="group bg-white/5 border border-white/10 rounded-2xl p-4 sm:p-5 hover:bg-white/10 hover:border-amber-400/30 transition-all duration-300 flex flex-row items-center gap-5"
             >
               {/* Avatar */}
               {"photo" in member ? (
-                <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden mb-4 mx-auto">
+                <div className="w-20 h-20 shrink-0 rounded-full overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={member.photo as string}
@@ -93,21 +93,24 @@ export default function Cast() {
                 </div>
               ) : (
                 <div
-                  className={`w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-gradient-to-br ${member.color} flex items-center justify-center text-white font-bold text-xl mb-4 mx-auto`}
+                  className={`w-20 h-20 shrink-0 rounded-full bg-gradient-to-br ${member.color} flex items-center justify-center text-white font-bold text-xl`}
                 >
                   {member.initials}
                 </div>
               )}
 
-              <h4 className="text-white font-semibold text-sm sm:text-base text-center leading-tight mb-1">
-                {member.name}
-              </h4>
-              <p className="text-amber-400 text-xs font-medium text-center mb-3">
-                {member.role}
-              </p>
-              <p className="text-gray-500 text-xs text-center leading-relaxed hidden sm:block">
-                {member.description}
-              </p>
+              {/* Info */}
+              <div className="flex-1 min-w-0">
+                <h4 className="text-white font-semibold text-base leading-tight mb-0.5">
+                  {member.name}
+                </h4>
+                <p className="text-amber-400 text-xs font-medium mb-2">
+                  {member.role}
+                </p>
+                <p className="text-gray-400 text-xs leading-relaxed">
+                  {member.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
