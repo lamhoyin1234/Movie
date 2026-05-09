@@ -1,9 +1,16 @@
-const castMembers = [
+const castMembers: {
+  name: string;
+  role: string;
+  description: string;
+  photo?: string;
+  initials: string;
+  color: string;
+}[] = [
   {
-    name: "Name1",
+    name: "Troy Stacey",
     role: "Director",
     description: "Funder and leader of the team, a skilled thief who specializes in extraction.",
-    initials: "N1",
+    initials: "TS",
     color: "from-blue-500 to-blue-700",
   },
   {
@@ -82,13 +89,13 @@ export default function Cast() {
               className="group bg-white/5 border border-white/10 rounded-2xl p-4 sm:p-5 hover:bg-white/10 hover:border-amber-400/30 transition-all duration-300 flex flex-row items-center gap-5"
             >
               {/* Avatar */}
-              {"photo" in member ? (
+              {member.photo ? (
                 <div className="w-20 h-20 shrink-0 rounded-full overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={member.photo as string}
+                    src={member.photo}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
               ) : (
