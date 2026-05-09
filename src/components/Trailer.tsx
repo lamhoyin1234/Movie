@@ -12,7 +12,7 @@ export default function Trailer() {
         </div>
 
         <h3 className="text-3xl sm:text-4xl font-bold text-white mb-10 text-center">
-          Official Trailer
+          Official Trailer — Coming Soon
         </h3>
 
         {/* Responsive 16:9 video embed */}
@@ -21,7 +21,7 @@ export default function Trailer() {
         >
           <iframe
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=_yPUGZWUeK0Y-yV-"
-            title="Movie Official Trailer"
+            title="Pirates of the South — Official Trailer"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             className="absolute inset-0 w-full h-full"

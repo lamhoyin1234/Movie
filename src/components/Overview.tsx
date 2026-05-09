@@ -9,12 +9,12 @@ const details = [
   { label: "Language", value: "English" },
   { label: "Box Office", value: "$836.8 million" },
    */
-  { label: "Director", value: "Name" },
-  { label: "Animator", value: "Name" },
-  { label: "Release Date", value: "Date" },
-  { label: "Genre", value: "Genre" },
-  { label: "Runtime", value: "Runtime" },
-  { label: "Language", value: "Language" },
+  { label: "Director", value: "Troy Stacey" },
+  { label: "Writer", value: "Jason Cook" },
+  { label: "Release Date", value: "TBD" },
+  { label: "Genre", value: "Drama" },
+  { label: "Runtime", value: "TBD" },
+  { label: "Language", value: "English" },
 ];
 
 export default function Overview() {
@@ -34,7 +34,7 @@ export default function Overview() {
           {/* Synopsis */}
           <div>
             <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
-              Movie synopsis goes here, a compelling summary that hooks the audience and gives them a taste of the story without revealing too much.
+              A group of youths in 1990s London create their own pirate radio station — fighting to keep their signal alive against all odds.
             </h3>
             <div className="space-y-4 text-gray-400 text-base sm:text-lg leading-relaxed">
               <p>
@@ -57,7 +57,7 @@ export default function Overview() {
                 "Best Visual Effects",
                 "Best Sound Mixing",
                 */
-                "Some tag or award",
+                "In Pre-production",
               ].map((award) => (
                 <span
                   key={award}

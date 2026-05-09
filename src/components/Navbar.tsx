@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-white/10">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <a href="#" className="text-xl font-bold tracking-widest text-amber-400 uppercase">
-          Movie Name
+          Pirates of the South
         </a>
 
         {/* Desktop links */}

@@ -22,12 +22,12 @@ export default function Hero() {
         {/* Badge */}
         <span className="inline-block mb-6 px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
           {/*2010 · Sci-Fi · Thriller*/}
-          2026 Amazon Movie
+          Pre-production · Drama
         </span>
 
         {/* Title */}
         <h1 className="text-6xl sm:text-8xl md:text-9xl font-black uppercase tracking-tight leading-none mb-6 bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent">
-          Movie Name
+          Pirates of the South
         </h1>
 
         {/* Tagline */}
@@ -38,11 +38,13 @@ export default function Hero() {
 
         {/* Meta info */}
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-sm text-gray-400 mb-12">
+          {/*
           <span>⭐ 8.8 / 10</span>
           <span>•</span>
           <span>🕐 2h 28min</span>
           <span>•</span>
-          <span>🎬 Creator Name</span>
+          */}
+          <span>🎬 Directed by Troy Stacey</span>
         </div>
 
         {/* CTA Buttons */}

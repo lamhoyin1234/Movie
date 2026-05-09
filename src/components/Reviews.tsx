@@ -1,4 +1,5 @@
 const reviews = [
+  /*
   {
     author: "Name1",
     publication: "Facebook",
@@ -19,6 +20,28 @@ const reviews = [
     rating: 1,
     quote:
       "Not good.",
+  },
+  */
+  {
+    author: "Awaiting Release",
+    publication: "No reviews available yet",
+    rating: 0,
+    quote:
+      "Pirates of the South is currently in pre-production. Reviews will be available following the film's release.",
+  },
+  {
+    author: "Stay Tuned",
+    publication: "Check back after release",
+    rating: 0,
+    quote:
+      "Based on real events from the 1990s London pirate radio scene. Critical reception to follow.",
+  },
+  {
+    author: "Coming Soon",
+    publication: "Audience reviews pending",
+    rating: 0,
+    quote:
+      "Director Troy Stacey's debut feature is currently in development. Watch this space for updates.",
   },
 ];
 
@@ -52,15 +75,23 @@ export default function Reviews() {
         </div>
 
         <h3 className="text-3xl sm:text-4xl font-bold text-white mb-10 text-center">
+          {/*
           Critical Acclaim
+          */}
+          Critical Reception
         </h3>
 
         {/* Score summary */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-14">
-          {[
-            { score: "100%", label: "Rotten Tomatoes", emoji: "🍅" },
+          {/*
+          { score: "100%", label: "Rotten Tomatoes", emoji: "🍅" },
             { score: "45", label: "Metacritic", emoji: "🎯" },
             { score: "8.8", label: "IMDb Rating", emoji: "⭐" },
+          */}
+          {[
+            { score: "N/A", label: "Rotten Tomatoes", emoji: "🍅" },
+            { score: "N/A", label: "Metacritic", emoji: "🎯" },
+            { score: "N/A", label: "IMDb Rating", emoji: "⭐" },
           ].map(({ score, label, emoji }) => (
             <div
               key={label}
