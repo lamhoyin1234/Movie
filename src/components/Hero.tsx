@@ -12,7 +12,7 @@ export default function Hero() {
         alt="Pirates of the South"
         layout="fill"
         objectFit="cover"
-        className="absolute inset-0 w-full h-full"
+        className="absolute inset-0 w-full h-full scale-75 origin-center"
       />
       {/* Subtle grid overlay */}
       <div

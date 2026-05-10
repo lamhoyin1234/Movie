@@ -12,7 +12,7 @@ const links = [
   {
     label: "Amazon UK — Pirates of The South : Euphoria",
     description:
-      '"Pirates of The South: Euphoria" — the original book the film is based on.',
+      'The original book the film is based on.',
     url: "https://www.amazon.co.uk/Pirates-South-Euphoria-Jason-Cook-ebook/dp/B091CVP43L",
   },
 ];
