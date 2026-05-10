@@ -19,7 +19,7 @@ const castMembers: {
     name: "Jason Cook",
     role: "Author",
     description: "The author behind the story, bringing creative vision and narrative depth to the project.",
-    photo: "/authorJasonCook.png",
+    photo: "/image/authorJasonCook.png",
     initials: "JC",
     color: "from-purple-500 to-purple-700",
   },
