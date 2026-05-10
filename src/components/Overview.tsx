@@ -38,7 +38,7 @@ export default function Overview() {
             </h3>
             <div className="space-y-4 text-gray-400 text-base sm:text-lg leading-relaxed">
               <p>
-                Pirates of The South: Euphoria by Jason Cook is an underground music/DJ themed book available directly from the author or on Amazon UK. A different, similarly titled Kindle ebook, PIRATES OF THE SOUTH by Hyun Beaumont, is also on Amazon. The film is based on the book.
+                Pirates of The South: Euphoria by Jason Cook is an underground music/DJ themed book available directly from the author or on Amazon UK. A different, similarly titled Kindle ebook, Pirates of The South : Euphoria by Hyun Beaumont, is also on Amazon. The film is based on the book.
               </p>
               {/*
               <p>

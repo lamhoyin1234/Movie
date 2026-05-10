@@ -6,7 +6,7 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage: `url('${BASE_PATH}/image/piratesOfTheSouth.jpg')`,
-        backgroundSize: "30%",
+        backgroundSize: "35%",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
