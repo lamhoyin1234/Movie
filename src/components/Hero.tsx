@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-8 py-12 flex flex-col md:flex-row md:items-center gap-8">
 
         {/* Left column — 20% — poster image (desktop only) */}
-        <div className="hidden md:flex md:w-1/5 shrink-0 items-center justify-center">
+        <div className="hidden md:flex md:w-[30%] shrink-0 items-center justify-center">
           <img
             src={`${BASE_PATH}/image/piratesOfTheSouth.jpg`}
             alt="Pirates of the South poster"
@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
 
         {/* Right column — 80% — information */}
-        <div className="w-full md:w-4/5 flex flex-col justify-center">
+        <div className="w-full md:w-[70%] flex flex-col justify-center">
         {/* Badge */}
         <span className="inline-block mb-6 w-fit px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
           {/*2010 · Sci-Fi · Thriller*/}
