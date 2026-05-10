@@ -2,7 +2,7 @@ const BASE_PATH = "/Movie";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex overflow-hidden bg-[#0a0a0a]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0a0a0a]">
       {/* 50% dim overlay */}
       <div className="absolute inset-0 bg-black/40" />
       {/* Subtle grid overlay */}
@@ -15,17 +15,20 @@ export default function Hero() {
         }}
       />
 
-      {/* Left column — 20% — poster image */}
-      <div className="relative z-10 w-1/5 shrink-0 flex items-center justify-center p-6">
-        <img
-          src={`${BASE_PATH}/image/piratesOfTheSouth.jpg`}
-          alt="Pirates of the South poster"
-          className="h-full max-h-[80vh] w-full object-contain"
-        />
-      </div>
+      {/* Container */}
+      <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-8 py-12 flex flex-col md:flex-row md:items-center gap-8">
 
-      {/* Right column — 80% — information */}
-      <div className="relative z-10 w-4/5 flex flex-col justify-center px-8 sm:px-16 py-12">
+        {/* Left column — 20% — poster image (desktop only) */}
+        <div className="hidden md:flex md:w-1/5 shrink-0 items-center justify-center">
+          <img
+            src={`${BASE_PATH}/image/piratesOfTheSouth.jpg`}
+            alt="Pirates of the South poster"
+            className="max-h-[70vh] w-full object-contain"
+          />
+        </div>
+
+        {/* Right column — 80% — information */}
+        <div className="w-full md:w-4/5 flex flex-col justify-center">
         {/* Badge */}
         <span className="inline-block mb-6 w-fit px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
           {/*2010 · Sci-Fi · Thriller*/}
@@ -70,7 +73,9 @@ export default function Hero() {
             Learn More
           </a>
         </div>
-      </div>
+
+        </div>{/* end right column */}
+      </div>{/* end container */}
 
       {/* Bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
