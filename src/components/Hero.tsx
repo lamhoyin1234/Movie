@@ -1,25 +1,18 @@
-import Image from "next/image";
-
 const BASE_PATH = "/Movie";
 
 export default function Hero() {
   return (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      style={{
+        backgroundImage: `url('${BASE_PATH}/image/piratesOfTheSouth.jpg')`,
+        backgroundSize: "75%",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
     >
-      {/* Image scaled to 75% of the hero area, centered */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="relative w-3/4 h-3/4">
-          <Image
-            src={BASE_PATH + "/image/piratesOfTheSouth.jpg"}
-            alt="Pirates of the South"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
-      </div>
-      {/* 75% dim overlay */}
-      <div className="absolute inset-0 bg-black/75" />
+      {/* 50% dim overlay */}
+      <div className="absolute inset-0 bg-black/50" />
       {/* Subtle grid overlay */}
       <div
         className="absolute inset-0 opacity-10"
