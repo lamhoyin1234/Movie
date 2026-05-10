@@ -36,7 +36,7 @@ export default function Hero() {
         </span>
 
         {/* Title */}
-        <h1 className="text-[clamp(1.5rem,5vw,5rem)] font-black uppercase tracking-tight leading-none mb-6 bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent whitespace-nowrap">
+        <h1 className="text-[clamp(1.5rem,4vw,4rem)] font-black uppercase tracking-tight leading-tight mb-6 bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent">
           Pirates of the South
         </h1>
 
