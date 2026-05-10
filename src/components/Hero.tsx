@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const BASE_PATH = "/Movie";
+
 export default function Hero() {
   return (
     <section
