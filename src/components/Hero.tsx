@@ -2,15 +2,7 @@ const BASE_PATH = "/Movie";
 
 export default function Hero() {
   return (
-    <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: `url('${BASE_PATH}/image/piratesOfTheSouth.jpg')`,
-        backgroundSize: "35%",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <section className="relative min-h-screen flex overflow-hidden bg-[#0a0a0a]">
       {/* 50% dim overlay */}
       <div className="absolute inset-0 bg-black/40" />
       {/* Subtle grid overlay */}
@@ -23,10 +15,19 @@ export default function Hero() {
         }}
       />
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-8 max-w-6xl mx-auto">
+      {/* Left column — 20% — poster image */}
+      <div className="relative z-10 w-1/5 shrink-0 flex items-center justify-center p-6">
+        <img
+          src={`${BASE_PATH}/image/piratesOfTheSouth.jpg`}
+          alt="Pirates of the South poster"
+          className="h-full max-h-[80vh] w-full object-contain"
+        />
+      </div>
+
+      {/* Right column — 80% — information */}
+      <div className="relative z-10 w-4/5 flex flex-col justify-center px-8 sm:px-16 py-12">
         {/* Badge */}
-        <span className="inline-block mb-6 px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
+        <span className="inline-block mb-6 w-fit px-4 py-1.5 rounded-full border border-amber-400/60 text-amber-400 text-xs font-semibold uppercase tracking-widest">
           {/*2010 · Sci-Fi · Thriller*/}
           Pre-production · Drama
         </span>
@@ -37,13 +38,13 @@ export default function Hero() {
         </h1>
 
         {/* Tagline */}
-        <p className="text-lg sm:text-2xl text-gray-300 font-light italic mb-10 leading-relaxed">
+        <p className="text-lg sm:text-2xl text-gray-300 font-light italic mb-10 leading-relaxed max-w-3xl">
           {/*&ldquo;Your mind is the scene of the crime.&rdquo;*/}
           A group of youths in 1990s London create their own pirate radio station. Based on the events and cases of individuals in the pirate radio scene, and their extreme efforts to keep it alive.
         </p>
 
         {/* Meta info */}
-        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-sm text-gray-400 mb-12">
+        <div className="flex flex-wrap items-center gap-4 sm:gap-8 text-sm text-gray-400 mb-12">
           {/*
           <span>⭐ 8.8 / 10</span>
           <span>•</span>
@@ -55,7 +56,7 @@ export default function Hero() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="#trailer"
             className="px-8 py-4 bg-amber-400 text-black font-bold rounded-full hover:bg-amber-300 transition-colors duration-200 text-sm uppercase tracking-wider"
