@@ -6,13 +6,13 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage: `url('${BASE_PATH}/image/piratesOfTheSouth.jpg')`,
-        backgroundSize: "50%",
+        backgroundSize: "25%",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
       {/* 50% dim overlay */}
-      <div className="absolute inset-0 bg-black/25" />
+      <div className="absolute inset-0 bg-black/40" />
       {/* Subtle grid overlay */}
       <div
         className="absolute inset-0 opacity-10"
