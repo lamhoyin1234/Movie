@@ -34,18 +34,20 @@ export default function Overview() {
           {/* Synopsis */}
           <div>
             <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
-              A group of youths in 1990s London create their own pirate radio station — fighting to keep their signal alive against all odds.
+              A group of youths in 1990s London create their own pirate radio station. Based on the events and cases of individuals in the pirate radio scene, and their extreme efforts to keep it alive.
             </h3>
             <div className="space-y-4 text-gray-400 text-base sm:text-lg leading-relaxed">
               <p>
-                Movie description goes here, providing insight into the protagonist's skills, challenges, and motivations.
+                Pirates of The South: Euphoria by Jason Cook is an underground music/DJ themed book available directly from the author or on Amazon UK. A different, similarly titled Kindle ebook, PIRATES OF THE SOUTH by Hyun Beaumont, is also on Amazon. The film is based on the book.
               </p>
+              {/*
               <p>
                 Movie description.
               </p>
               <p>
                 Movie description.
               </p>
+              */}
             </div>
 
             {/* Awards */}
@@ -57,13 +59,13 @@ export default function Overview() {
                 "Best Visual Effects",
                 "Best Sound Mixing",
                 */
-                "In Pre-production",
+                "Now in Pre-production",
               ].map((award) => (
                 <span
                   key={award}
                   className="px-3 py-1.5 bg-amber-400/10 border border-amber-400/30 rounded-full text-amber-400 text-xs font-medium"
                 >
-                  🏆 {award}
+                  {/*🏆*/} {award}
                 </span>
               ))}
             </div>

@@ -16,6 +16,7 @@ export default function Trailer() {
         </h3>
 
         {/* Responsive 16:9 video embed */}
+        {/*
         <div className="relative w-full overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-black"
           style={{ paddingTop: "56.25%" }}
         >
@@ -27,7 +28,7 @@ export default function Trailer() {
             className="absolute inset-0 w-full h-full"
           />
         </div>
-
+*/}
         <p className="mt-6 text-center text-gray-500 text-sm">
           {/*&copy; 2010 Warner Bros. Pictures — All rights reserved.*/}
         </p>

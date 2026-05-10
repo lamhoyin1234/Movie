@@ -20,11 +20,12 @@ const castMembers: {
   {
     name: "Jason Cook",
     role: "Author",
-    description: "The author behind the story, bringing creative vision and narrative depth to the project.",
+    description: "Jason Cook was born in July 1975 in Hackney, London, England, UK. He is a producer and actor, known for Cookster: The Darkest Days (2024), Cookster: No Going Back and Fakers.",
     photo: "/image/authorJasonCook.png",
     initials: "JC",
     color: "from-purple-500 to-purple-700",
   },
+  {/*
   {
     name: "TBD",
     role: "Lead Sales",
@@ -67,6 +68,7 @@ const castMembers: {
     initials: "TBD",
     color: "from-yellow-500 to-yellow-700",
   },
+  */}
 ];
 
 export default function Cast() {

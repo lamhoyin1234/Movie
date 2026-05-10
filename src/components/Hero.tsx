@@ -33,7 +33,7 @@ export default function Hero() {
         {/* Tagline */}
         <p className="text-lg sm:text-2xl text-gray-300 font-light italic mb-10 leading-relaxed">
           {/*&ldquo;Your mind is the scene of the crime.&rdquo;*/}
-          Movie tagline goes here, something catchy and intriguing to draw viewers in.
+          A group of youths in 1990s London create their own pirate radio station. Based on the events and cases of individuals in the pirate radio scene, and their extreme efforts to keep it alive.
         </p>
 
         {/* Meta info */}
@@ -45,6 +45,7 @@ export default function Hero() {
           <span>•</span>
           */}
           <span>🎬 Directed by Troy Stacey</span>
+          <span>✍️ Created by Jason Cook</span>
         </div>
 
         {/* CTA Buttons */}
