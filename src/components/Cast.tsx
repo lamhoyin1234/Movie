@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const castMembers: {
   name: string;
   role: string;
@@ -94,7 +96,7 @@ export default function Cast() {
               {member.photo ? (
                 <div className="relative w-20 h-20 shrink-0 rounded-full overflow-hidden">
                   <Image
-                    src={member.photo}
+                    src={BASE_PATH + member.photo}
                     alt={member.name}
                     fill
                     className="object-cover object-top"

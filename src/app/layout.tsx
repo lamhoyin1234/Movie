@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Movie Name – Official Movie Page",
-  icons: { icon: "/image/company.png" },
+  icons: { icon: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/image/company.png" },
   description:
     "Explore Movie Name, the best animated film directed by Creator Name. Discover the cast, storyline, and more.",
   openGraph: {
