@@ -25,7 +25,7 @@ const castMembers: {
     initials: "JC",
     color: "from-purple-500 to-purple-700",
   },
-  {/*
+  /*
   {
     name: "TBD",
     role: "Lead Sales",
@@ -68,7 +68,7 @@ const castMembers: {
     initials: "TBD",
     color: "from-yellow-500 to-yellow-700",
   },
-  */}
+  */
 ];
 
 export default function Cast() {
