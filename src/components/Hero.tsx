@@ -1,14 +1,17 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: "url('/image/piratesOfTheSouth.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
     >
+      <Image
+        src={BASE_PATH + "/image/piratesOfTheSouth.jpg"}
+        alt="Pirates of the South"
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 w-full h-full"
+      />
       {/* Subtle grid overlay */}
       <div
         className="absolute inset-0 opacity-10"

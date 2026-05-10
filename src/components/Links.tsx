@@ -5,14 +5,14 @@ const links = [
     url: "https://www.imdb.com/title/tt38866294/",
   },
   {
-    label: "IMDb — Another Film by the Same Author",
-    description: "Another IMDb title by the same author, Jason Cook.",
+    label: "IMDb — Cookster: The Darkest Days",
+    description: "Another movie title by the same author, Jason Cook.",
     url: "https://www.imdb.com/title/tt22247274/",
   },
   {
-    label: "Amazon UK — Original Book",
+    label: "Amazon UK — Pirates of The South : Euphoria",
     description:
-      '"Pirates of The South: Euphoria" by Jason Cook — the book the film is based on.',
+      '"Pirates of The South: Euphoria" — the original book the film is based on.',
     url: "https://www.amazon.co.uk/Pirates-South-Euphoria-Jason-Cook-ebook/dp/B091CVP43L",
   },
 ];
