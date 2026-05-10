@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Pirates of The South – Official Movie Page",
   icons: { icon: "/Movie/image/company.png" },
   description:
-    "Explore Pirates of The South, the best animated film directed by Jason Cook. Discover the cast, storyline, and more.",
+    "Explore Pirates of The South, a drama directed by Jason Cook. Discover the cast, storyline, and more.",
   openGraph: {
     title: "Pirates of The South – Official Movie Page",
     description:
-      "Explore Pirates of The South, the best animated film directed by Jason Cook. Discover the cast, storyline, and more.",
+      "Explore Pirates of The South, a drama directed by Jason Cook. Discover the cast, storyline, and more.",
     type: "website",
     locale: "en_US",
     url: "https://lamhoyin1234.github.io/Movie/",
