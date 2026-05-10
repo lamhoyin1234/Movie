@@ -3,8 +3,10 @@ export default function Hero() {
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        background:
-          "linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 40%, #16213e 70%, #0f3460 100%)",
+        backgroundImage: "url('/image/piratesOfTheSouth.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       {/* Subtle grid overlay */}

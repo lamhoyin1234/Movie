@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Cast", href: "#cast" },
   { label: "Trailer", href: "#trailer" },
   { label: "Reviews", href: "#reviews" },
+  { label: "Links", href: "#links" },
 ];
 
 export default function Navbar() {
